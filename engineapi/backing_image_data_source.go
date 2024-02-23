@@ -17,6 +17,7 @@ type BackingImageDataSourceInfo struct {
 	FilePath        string `json:"filePath"`
 	State           string `json:"state"`
 	Size            int64  `json:"size"`
+	VirtualSize     int64  `json:"virtualSize"`
 	Progress        int    `json:"progress"`
 	ProcessedSize   int64  `json:"processedSize"`
 	CurrentChecksum string `json:"currentChecksum"`

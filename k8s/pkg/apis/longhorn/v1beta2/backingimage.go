@@ -56,6 +56,9 @@ type BackingImageStatus struct {
 	UUID string `json:"uuid"`
 	// +optional
 	Size int64 `json:"size"`
+	// Note virtualSize here will be zero while, for example, a backing image is uploading
+	// +optional
+	VirtualSize int64 `json:"virtualSize"`
 	// +optional
 	Checksum string `json:"checksum"`
 	// +optional
