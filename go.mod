@@ -32,6 +32,7 @@ replace (
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.28.5
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.28.5
 	k8s.io/sample-controller => k8s.io/sample-controller v0.28.5
+	github.com/longhorn/backing-image-manager => github.com/tserong/backing-image-manager v1.6.0-tserong-dev
 )
 
 require (

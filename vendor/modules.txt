@@ -223,7 +223,7 @@ github.com/kubernetes-csi/csi-lib-utils/protosanitizer
 # github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de
 ## explicit
 github.com/liggitt/tabwriter
-# github.com/longhorn/backing-image-manager v1.6.0-dev-20231217.0.20240103150452-7f8aea1edd03
+# github.com/longhorn/backing-image-manager v1.6.0-dev-20231217.0.20240103150452-7f8aea1edd03 => github.com/tserong/backing-image-manager v1.6.0-tserong-dev
 ## explicit; go 1.21
 github.com/longhorn/backing-image-manager/api
 github.com/longhorn/backing-image-manager/pkg/client
@@ -1591,3 +1591,4 @@ sigs.k8s.io/yaml
 # k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.28.5
 # k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.28.5
 # k8s.io/sample-controller => k8s.io/sample-controller v0.28.5
+# github.com/longhorn/backing-image-manager => github.com/tserong/backing-image-manager v1.6.0-tserong-dev
